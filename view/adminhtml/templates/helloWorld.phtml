@@ -1,0 +1,13 @@
+<?php
+declare(strict_types=1);
+
+use YireoTraining\MageWireBackendHelloWorld\Magewire\HelloWorld;
+
+/** @var HelloWorld $helloWorld */
+?>
+<div class="dashboard-item">
+    <div class="dashboard-item-title"><?= __('Hello World') ?></div>
+    <div class="dashboard-item-content">
+        <input class="admin__control-text" wire:model="helloWorld"/>
+    </div>
+</div>
