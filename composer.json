@@ -1,13 +1,10 @@
 {
-  "name": "yireo-training/module-mage-wire-backend-hello-world",
+  "name": "yireo-training/magento2-magewire-backend-hello-world",
   "version": "1.0.0",
   "description": "N/A",
   "type": "magento2-module",
-  "require": {
-    "magento/framework": "*"
-  },
   "license": [
-    "Proprietary"
+    "OSL-3.0"
   ],
   "autoload": {
     "files": [
